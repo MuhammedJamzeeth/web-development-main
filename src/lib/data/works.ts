@@ -75,7 +75,26 @@ export const worksData: Work[] = [
                 question: "Why have you looked at costs?",
                 answer: "We initially wanted to understand whether the AI was simply requesting excessive diagnostic workups to reach the right diagnosis. What we found was that our Orchestrator was able to reach the correct answer with much less money spent on testing. In some ways this is not a surprise as diagnostic over-testing is recognized as being a widespread challenge, accounting for millions of unnecessary tests annually in the US. This work suggests AI creates an opportunity for clinicians – and consumers – to reach a faster, more accurate diagnosis while reducing costs."
             }
-        ]
+        ],
+
+        author: "John Doe",
+        category: "HEALTHCARE",
+        date: 'July 18, 2025',
+        secondImage: '/images/works/MAI-Dx-Orchestrator-v3-1-1920x1997.jpg',
+        secondImageDescription: '  The MAI-Dx Orchestrator turns any language model into a virtual panel of clinicians: it can\n' +
+            '                            ask\n' +
+            '                            follow-up questions, order tests, or deliver a diagnosis, then run a cost check and verify\n' +
+            '                            its\n' +
+            '                            own reasoning before deciding whether to proceed.',
+        thirdImage: '/images/works/Pareto-Chart-v3-1-1536x1523.jpg',
+        thirdImageDescription: ' Comparison of AI powered diagnostic agents by accuracy and average diagnostic test cost per\n' +
+            '                            case. Top performing agents appear toward the top left quadrant, reflecting higher accuracy\n' +
+            '                            and lower cost. The lower dotted line represents the performance range of the best\n' +
+            '                            individual foundation models. The purple line traces the performance of MAI-DxO across\n' +
+            '                            different configurations. The red cross indicates the average performance of 21 practicing\n' +
+            '                            physicians.'
+
+
     },
     {
         id: "2",

@@ -29,12 +29,24 @@ export default async function Project({
 
     return (
         <>
-            <ProjectSection title={work.title} description={work.description} subtitle={work.subtitle}
+            <ProjectSection title={work.title} description={work.description}
+                            subtitle={work.subtitle}
                             subDescription={work.subDescription}
                             conclusionTitleTwo={work.conclusionTitleTwo}
                             conclusionThree={work.conclusionThree}
                             questionAndAnswers={work.questionsAndAnswers}
-                            conclusionTitle={work.conclusionTitle} conclusion={work.conclusion} image={work.image} conclusionPoints={work.conclusionPoints}/>
+                            conclusionTitle={work.conclusionTitle}
+                            conclusion={work.conclusion} image={work.image}
+                            conclusionPoints={work.conclusionPoints}
+
+                            author={work.author}
+                            date={work.date}
+                            category={work.category}
+                            secondImage={work.secondImage}
+                            secondImageDescription={work.secondImageDescription}
+                            thirdImage={work.thirdImage}
+                            thirdImageDescription={work.thirdImageDescription}
+            />
         </>
     )
 }

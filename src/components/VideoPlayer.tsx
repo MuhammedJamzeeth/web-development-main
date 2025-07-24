@@ -55,7 +55,7 @@ const VideoPlayer = () => {
                                     : 'opacity-0 max-w-0 -translate-x-0'
                             }`}
                         >
-                            <div className="whitespace-nowrap pr-3">
+                            <div className="whitespace-nowrap pr-3 text-[10px] md:text-[14px]">
                                 Let&#39;s rule out embryonic hemangiosarcoma
                             </div>
                         </div>

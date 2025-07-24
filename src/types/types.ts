@@ -17,4 +17,12 @@ export type Work = {
         question: string;
         answer: string;
     }[];
+
+    author?: string;
+    date?: string;
+    category?: string;
+    secondImage?: string;
+    secondImageDescription?: string;
+    thirdImage?: string;
+    thirdImageDescription?: string;
 }
