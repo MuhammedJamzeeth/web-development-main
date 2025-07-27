@@ -214,9 +214,9 @@ const ProjectSection = ({
                         </motion.div>
                     </motion.div>
 
-                    <div className={"hidden md:flex md:w-2/4"}>
+                    {/*<div className={"hidden md:flex md:w-2/4"}>*/}
 
-                    </div>
+                    {/*</div>*/}
                 </div>
 
                 <div className={"container w-full flex items-center justify-center"}>
@@ -239,9 +239,9 @@ const ProjectSection = ({
                             ))}
                         </motion.p>
                     </motion.div>
-                    <div className={"hidden md:flex md:w-2/4"}>
+                    {/*<div className={"hidden md:flex md:w-2/4"}>*/}
 
-                    </div>
+                    {/*</div>*/}
                 </div>
 
                 <div className={"container w-full flex flex-col items-center justify-center gap-8"}>
@@ -270,9 +270,9 @@ const ProjectSection = ({
                         </motion.p>
                     </motion.div>
 
-                    <div className={"hidden md:flex md:w-2/4"}>
+                    {/*<div className={"hidden md:flex md:w-2/4"}>*/}
 
-                    </div>
+                    {/*</div>*/}
                 </div>
 
                 {/*// Third Image Section*/}
@@ -330,9 +330,9 @@ const ProjectSection = ({
                     </motion.div>
 
 
-                    <div className={"hidden md:flex md:w-2/4"}>
+                    {/*<div className={"hidden md:flex md:w-2/4"}>*/}
 
-                    </div>
+                    {/*</div>*/}
                 </div>
             </motion.div>
 
